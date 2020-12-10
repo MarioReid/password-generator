@@ -51,9 +51,14 @@ if(includeUpperCase){
 var includeNumeric = confirm("Do you want to include numeric characters?");
 console.log("Include numeric characters: " + includeNumeric);
 
-if(include)
+if(includeNumeric){
+  requireCharacterString = requireCharacterString.concat(numericCharacters);
 
+  generatedPassword = generatedPassword.concat(Math.floor(Math.random()*numericCharacters.length));
+}
 
+var includeSpecial = confirm("Do you want to include special characters?");
+console.log("Include special characters: " +includeSpecial);
 
 
 
