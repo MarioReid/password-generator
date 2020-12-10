@@ -1,5 +1,5 @@
-
-  var generateBtn = document.querySelector("#generate");
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 
 function writePassword() {
@@ -11,7 +11,7 @@ function writePassword() {
 }
 
 
-// Assignment Code
+
 function generatePassword(){
 
 
@@ -49,7 +49,7 @@ function generatePassword(){
 
 
   var includeUpperCase = confirm("Do you want to include uppercase characters?");
-  console.log("Include uppercase characters: " = includeUpperCase);
+  console.log("Include uppercase characters: "+includeUpperCase);
 
   if(includeUpperCase){
   requireCharacterString = requireCharacterString.concat(upperCaseCharacters);
@@ -57,7 +57,7 @@ function generatePassword(){
   generatedPassword = generatedPassword.concat(Math.floor(Math.random()*upperCaseCharacters.length));
   }
   var includeNumeric = confirm("Do you want to include numeric characters?");
-  console.log("Include numeric characters: " + includeNumeric);
+  console.log("Include numeric characters: "+includeNumeric);
 
 
   if(includeNumeric){
@@ -68,7 +68,7 @@ function generatePassword(){
 
 
   var includeSpecial = confirm("Do you want to include special characters?");
-  console.log("Include special characters: " +includeSpecial);
+  console.log("Include special characters: "+includeSpecial);
 
   if(includeSpecial){
   requireCharacterString = requireCharacterString.concat(specialCharacters);
@@ -83,7 +83,7 @@ function generatePassword(){
 
 
 
-  for(var i = 0; < passwordLength; i++) {
+  for(var i = 0; i < passwordLength; i++) {
 
 
     var random = Math.floor(Math.random() * requireCharacterString.length);
