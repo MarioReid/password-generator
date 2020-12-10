@@ -60,22 +60,28 @@ if(includeNumeric){
 var includeSpecial = confirm("Do you want to include special characters?");
 console.log("Include special characters: " +includeSpecial);
 
+if(includeSpecial){
+requireCharacterString = requireCharacterString.concat(specialCharacters);
 
+generatedPassword = generatedPassword.concat(Math.floor(Math.random()*specialCharacters.length));
+}
 
+console.log("Required characters array string: " + requireCharacterString);
+console.log("Generated Password Length : " +generatedPassword.length);
+console.log("Generated Password so far is : "+generatedPassword);
 
+for(var i = 0; < passwordLength; i++) {
+  var random = Math.floor(Math.random() * requireCharacterString.length);
 
-
-
+  generatedPassword = generatedPassword.concat(requiredCharactersString.charAt(random));
+  console.log("Generated password is : " +generatedPassword);
+}
+  return generatedPassword;
+}
 
 var passwordArray[]
 
 
-
-}
-generatedPassword = generatedPassword.concat(require)
-}
-  return generatedPassword;
-}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
