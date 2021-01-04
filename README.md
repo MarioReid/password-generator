@@ -5,12 +5,18 @@ This project was one to generate a password using code in javascript. There were
 
 [Password Generator](https://marioreid.github.io/password-generator/) Click here to visit my deployed project.
 
-## Usage
-First the user will click the Generate Password button in order for a password to produce.
-Then they are prompted through a series of questions to determine length, uppercase and lowercase letters, and special characters to complete the final password.
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 ## Installation
 
 Open webpage using browser of your choice.
+
+## Usage
+First the user will click the Generate Password button in order for a password to produce.
+Then they are prompted through a series of questions to determine length, uppercase and lowercase letters, and special characters to complete the final password.
 
  ## Credits
 Pete Kriengsiri (classmate) helped walked through the steps of coding to figure out what need to be completed. 
