@@ -16,17 +16,20 @@ Open webpage using browser of your choice.
 
 ## Usage
 First the user will click the Generate Password button in order for a password to produce.
-
-Then they are prompted through a series of questions to determine length, 
-<image>
-Uppercase 
-
-Lowercase letters 
-
-and special characters 
-
+<img src = "images/landingPage.png" alt = "Landing Page">
+Then they are prompted through a series of questions to determine:
+Number of Characters
+<img src = "images/numberOfCharacters.png" alt = "Number of Characters">
+Lowercase Letters
+<img src = "images/lowercase.png" alt = "Lowercase Letters">
+Uppercase Letters
+<img src = "images/uppercase.png" alt = "Uppercase Letters">
+Numeric Characters
+<img src = "images/numericCharacters.png" alt = "Numeric Characters">
+Special characters 
+<img src = "images/specialCharacters.png" alt = "Special Characters">
 Once prompts finish, the completed password will generate.
-
+<img src = "images/finalPassword.png" alt = "Final Page">
  ## Credits
 Pete Kriengsiri (classmate) helped walked through the steps of coding to figure out what need to be completed. 
 
