@@ -16,7 +16,16 @@ Open webpage using browser of your choice.
 
 ## Usage
 First the user will click the Generate Password button in order for a password to produce.
-Then they are prompted through a series of questions to determine length, uppercase and lowercase letters, and special characters to complete the final password.
+
+Then they are prompted through a series of questions to determine length, 
+<image>
+Uppercase 
+
+Lowercase letters 
+
+and special characters 
+
+Once prompts finish, the completed password will generate.
 
  ## Credits
 Pete Kriengsiri (classmate) helped walked through the steps of coding to figure out what need to be completed. 
